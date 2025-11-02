@@ -1,0 +1,4 @@
+run-disk:
+	qemu-system-aarch64 -machine virt -cpu cortex-a53 -smp 2 -m 1024 -nographic \
+	  -bios ../images/u-boot.bin -kernel ../images/Image -drive file=../images/rootfs.ext4,if=virtio,format=raw \
+	  -device loader,file=../images/boot-disk.scr,addr=0x42000000

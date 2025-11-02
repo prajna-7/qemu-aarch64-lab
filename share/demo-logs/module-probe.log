@@ -1,0 +1,5 @@
+lab_sensor: loading out-of-tree module taints kernel.
+lab-sensor lab-sensor: lab_sensor: probe()
+lab-sensor lab-sensor:   label       : virtual-temp0
+lab-sensor lab-sensor:   temp_millic : 42000
+lab-sensor lab-sensor:   id-bytes    : deadbeefcafebabe

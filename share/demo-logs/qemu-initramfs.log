@@ -1,0 +1,3 @@
+=== initramfs boot ===
+DT model: linux,dummy-virt
+custom-node.message: hello-from-u-boot

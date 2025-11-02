@@ -1,0 +1,4 @@
+=== ext4 rootfs boot ===
+DT model: linux,dummy-virt
+custom-node.message: hello-from-disk-boot
+lab-sensor.label: virtual-temp0
